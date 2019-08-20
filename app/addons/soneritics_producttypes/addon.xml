@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>soneritics_producttypes</id>
+    <name>Soneritics Product Types</name>
+    <version>1.0</version>
+    <default_language>en</default_language>
+    <priority>1000</priority>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <queries>
+        <item>
+            CREATE TABLE `?:soneritics_producttypes` (
+                `product1_id` INT NOT NULL,
+                `product2_id` INT NOT NULL,
+                PRIMARY KEY  (`product1_id`, `product2_id`)
+            )
+        </item>
+        <item for="uninstall">DROP TABLE ?:soneritics_producttypes</item>
+    </queries>
+</addon>

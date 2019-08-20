@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: addon\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en_EN\n"
+"PO-Revision-Date: 2019-08-20 21:00+0200\n"
+
+msgctxt "Addons::name::soneritics_producttypes"
+msgid "Soneritics Product Types"
+msgstr "Soneritics Producttypes"
+
+msgctxt "Addons::description::soneritics_producttypes"
+msgid "Linking different product types"
+msgstr "Linking different product types"
+
+msgctxt "Languages::product_types"
+msgid "Product types"
+msgstr "Product types"
